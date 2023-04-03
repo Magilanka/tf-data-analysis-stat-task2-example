@@ -4,10 +4,10 @@ import numpy as np
 from scipy.stats import norm
 
 
-chat_id = 123456 # Ваш chat ID, не меняйте название переменной
+chat_id = 706100023 # Ваш chat ID, не меняйте название переменной
 
 def solution(p: float, x: np.array) -> tuple:
-    # Измените код этой функции
+    # Измените код этой функции sss
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
     alpha = 1 - p
