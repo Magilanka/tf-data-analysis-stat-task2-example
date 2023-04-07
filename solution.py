@@ -11,7 +11,7 @@ def solution(p: float, x: np.array) -> tuple:
     n = len(x)
     q = uniform.ppf(p, loc=0.056, scale=1-0.056)
     mean = np.mean(x)
-    std = np.std(x, ddof=1)
+    std = np.std(x)
     left = mean - q * std / np.sqrt(n)
     right = mean + q * std / np.sqrt(n)
     rez = (left, right)
